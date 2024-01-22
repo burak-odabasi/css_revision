@@ -35,11 +35,30 @@ span > b {
   color: greenyellow;
 } */
 
-/**------ advanced */
+/**------ siblings advanced ------------------*/
 
 /* li.green ~ li {
   background: #0009;
 }
 li.green + li {
   background: #0009;
+} */
+
+/**------ pseudo advanced -----------------*/
+
+/* li:hover {
+  background: #000;
+} */
+
+/* input:focus {
+  background: #000;
+} */
+
+/* div:first-child {
+  border: 5px solid black;
+  background: red;
+}
+div:first-of-type {
+  border: 5px solid black;
+  background: red;
 } */
