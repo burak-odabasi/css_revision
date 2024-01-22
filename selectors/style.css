@@ -1,9 +1,12 @@
-* {
+/* * {
   background: rgb(129, 118, 118);
 }
 
 div {
   background: purple;
+}
+div.orangediv {
+  background: orange;
 }
 
 span {
@@ -18,3 +21,25 @@ span {
 #orange {
   color: orange;
 }
+
+li#orange,
+li.green {
+  background: aqua;
+}
+
+ul li {
+  font-size: 2rem;
+}
+
+span > b {
+  color: greenyellow;
+} */
+
+/**------ advanced */
+
+/* li.green ~ li {
+  background: #0009;
+}
+li.green + li {
+  background: #0009;
+} */
